@@ -1,4 +1,4 @@
-#include <Servo.h>                               //Agregamos la biblioteca del servomotor
+#include <Servo.h>                                          //Agregamos la biblioteca del servomotor
 
 Servo servo1;
  
