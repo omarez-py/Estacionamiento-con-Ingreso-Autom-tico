@@ -1,6 +1,6 @@
 #include <Servo.h>                                          //Agregamos la biblioteca del servomotor
 
-Servo servo1;
+Servo servo1;                                               //Declara el servo como servo1
  
 const int PINSERVO = 4;                                     //Definimos el servomotor en el pin 4
 const int PULSOMIN = 1000;                                  //Establecemos el rango minimo y maximo del giro del servomotor
