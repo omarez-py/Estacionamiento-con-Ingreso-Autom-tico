@@ -38,7 +38,7 @@ void loop()
   delayMicroseconds(Tiempodelpulso);                        //Espera un tiempo
   digitalWrite(Trigger, LOW);                               //Deja de enviar el pulso
   
-  t = pulseIn(Echo, HIGH);                                  //Mide el tiempo proporcional a la distancia del objeto 
+  t = pulseIn(Echo, HIGH);                                  //Mide el tiempo que tarda el pulso en recorrer la distancia al objeto
   d = t/Tiempodelsonido;                                    //Convierte el tiempo recorrido por el pulso en una distancia
   
   Serial.print("Distancia: ");                              //Escribe en el serial monitor "Distancia"
